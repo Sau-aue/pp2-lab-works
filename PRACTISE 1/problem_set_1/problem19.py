@@ -1,0 +1,5 @@
+name = input()
+finding = input()
+rep = input()
+txt = name.replace(finding, rep)
+print(txt)
