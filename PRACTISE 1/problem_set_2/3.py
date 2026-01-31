@@ -2,7 +2,7 @@ count = int(input())
 seq = input().split()
 
 m = []
-for i in range(0, len(seq), 2):
+for i in range(0, len(seq), 1):
     m.append(int(seq[i]))
 
 total = 0
