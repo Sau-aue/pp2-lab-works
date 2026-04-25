@@ -10,8 +10,8 @@ mainCoordY = 250
 
 while isDone:
     screen.fill(fon)
-    pygame.draw.circle(screen, 'Red', (mainCoordX, mainCoordY), 25)
-    pygame.display.update()
+    pygame.draw.circle(screen, 'Red', (mainCoordX, mainCoordY), 25) #можно и вместо "Red" написать (255,0,0) тоде самое
+    pygame.display.update() # можно и pygame.display.flip() но для оптимизаций лучше то что написано
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             isDone = False
